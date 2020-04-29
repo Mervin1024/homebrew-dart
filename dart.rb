@@ -6,7 +6,7 @@ class Dart < Formula
 
   version "2.7.2"
   if OS.mac?
-    url "https://storage.flutter-io.cn/dart-archive/channels/stable/release/2.7.2/sdk/dartsdk-macos-x64-release.zipip"
+    url "https://storage.flutter-io.cn/dart-archive/channels/stable/release/2.7.2/sdk/dartsdk-macos-x64-release.zip"
     sha256 "529281db2b4450c1aabdda0e6c53ccfa5709869dae56d248fb62365c0ea03f84"
   elsif OS.linux? && Hardware::CPU.intel?
     if Hardware::CPU.is_64_bit?
